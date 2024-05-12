@@ -1,24 +1,24 @@
 {
-  "name": "basicknowle",
+  "name": "my-blog-docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "vuepress build docs"
   },
-  "author": "yirufeng",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "@vuepress/bundler-vite": "^2.0.0-rc.9",
-    "vuepress": "^2.0.0-rc.9",
-    "vuepress-theme-plume": "^1.0.0-rc.56"
+    "@vuepress/bundler-vite": "2.0.0-rc.9",
+    "vue": "^3.4.27",
+    "vuepress": "2.0.0-rc.9",
+    "vuepress-theme-plume": "1.0.0-rc.56"
   },
   "dependencies": {
-    "@vuepress-plume/plugin-content-update": "^1.0.0-rc.56",
-    "@vuepress-plume/plugin-iconify": "^1.0.0-rc.56",
-    "@vuepress-plume/plugin-shikiji": "^1.0.0-rc.56",
-    "vuepress-plugin-md-power": "^1.0.0-rc.56"
+    "@vuepress-plume/plugin-iconify": "1.0.0-rc.56",
+    "@vuepress-plume/plugin-shikiji": "1.0.0-rc.56",
+    "vuepress-plugin-md-power": "1.0.0-rc.56"
   }
 }

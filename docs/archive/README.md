@@ -8,7 +8,6 @@ config:
     background: tint-plate
     hero:
       name: 逸如风的笔记
-    #   tagline: 计算机 技术 知识
       text: 一个蕴含常用计算机基础知识，涵盖计算机网络、操作系统、Mysql、Redis等
       actions:
         -
