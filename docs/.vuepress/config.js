@@ -35,7 +35,7 @@ export default defineUserConfig({
               {
                 text: '内存系列',
                 icon: '', // 侧边栏图标
-                items: ['foo'] // 简化写法，主题会自动补全为 `foo.md`
+                items: ['memory'] // 简化写法，主题会自动补全为 `foo.md`
               }
             ]
           },
