@@ -4,6 +4,7 @@ import { plumeTheme } from 'vuepress-theme-plume'
 
 
 export default defineUserConfig({
+  "base": "/OnlineDocuments/"
   // 请不要忘记设置默认语言
   lang: 'zh-CN',
   theme: plumeTheme({
