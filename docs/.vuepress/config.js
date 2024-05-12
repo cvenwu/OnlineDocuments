@@ -27,12 +27,17 @@ export default defineUserConfig({
         link: '/', // 声明所有笔记默认的链接前缀， 默认为 '/'
         notes: [
           {
-            dir: 'typescript', // 声明笔记的目录，相对于 `notes.dir`
-            link: '/typescript/', // 声明笔记的链接前缀
+            dir: 'redis', // 声明笔记的目录，相对于 `notes.dir`
+            link: '/redis/', // 声明笔记的链接前缀
             sidebar: [ // 配置侧边栏
               {
-                text: '简介',
-                icon: 'mdi:language-typescript', // 侧边栏图标
+                text: '数据结构',
+                icon: '', // 侧边栏图标
+                items: ['foo'] // 简化写法，主题会自动补全为 `foo.md`
+              },
+              {
+                text: '内存系列',
+                icon: '', // 侧边栏图标
                 items: ['foo'] // 简化写法，主题会自动补全为 `foo.md`
               }
             ]
