@@ -5,6 +5,7 @@ createTime: 2024/05/12 09:58:29
 tags:
   - Redis
   - Redis系列
+permalink: /article/5qq2kq2d/
 ---
 
 ## 下载安装程序
