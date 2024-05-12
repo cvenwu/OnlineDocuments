@@ -30,7 +30,7 @@ export default defineUserConfig({
               {
                 text: '数据结构',
                 icon: '', // 侧边栏图标
-                items: ['foo'] // 简化写法，主题会自动补全为 `foo.md`
+                items: ['data'] // 简化写法，主题会自动补全为 `foo.md`
               },
               {
                 text: '内存系列',
