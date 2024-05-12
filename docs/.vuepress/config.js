@@ -40,10 +40,10 @@ export default defineUserConfig({
             ]
           },
           {
-            dir: 'rust',
-            link: '/rust/',
+            dir: 'mysql',
+            link: '/mysql/',
             sidebar: [
-              { text: '简介', items: ['foo'] }
+              { text: '简介', items: [''] }
             ]
           }
         ]
