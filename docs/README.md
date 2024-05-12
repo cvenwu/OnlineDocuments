@@ -56,7 +56,7 @@ config:
       -
         title: 分布式 & 系统设计
         icon: 👨‍💻
-        details: 分布式原理、系统设计面试学习
+        details: 分布式原理、系统设计学习
       -
         title: 面试技巧
         icon: 🔍
