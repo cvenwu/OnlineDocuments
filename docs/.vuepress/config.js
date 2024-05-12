@@ -33,6 +33,11 @@ export default defineUserConfig({
                 items: ['data'] // 简化写法，主题会自动补全为 `foo.md`
               },
               {
+                text: '线程IO模型',
+                icon: '', // 侧边栏图标
+                items: ['memory'] // 简化写法，主题会自动补全为 `foo.md`
+              },
+              {
                 text: '内存系列',
                 icon: '', // 侧边栏图标
                 items: ['memory'] // 简化写法，主题会自动补全为 `foo.md`
