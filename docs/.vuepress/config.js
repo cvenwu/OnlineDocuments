@@ -60,7 +60,7 @@ export default defineUserConfig({
         {
           text: '数据结构与算法',
           icon: 'material-symbols:book-outline',
-          link: '/notes/algo/',
+          link: '/notes/algo/数组.md',
           // items: [
           //     { text: '数组', link: '/notes/algo/array/', icon: '' },
           //     { text: '链表', link: '/notes/algo/list/', icon: '' },
