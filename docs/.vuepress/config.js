@@ -12,7 +12,9 @@ export default defineUserConfig({
     social: [
         { icon: 'github', link: 'https://github.com/cvenwu' }
     ],
-    // footer: { message: "2022"; copyright: "yirufeng" }
+    // 脚注
+    footer: { copyright: 'Copyright © 2019-present yirufeng', message:"No Pains, No Gains" },
+    // 博客目录下博主信息
     avatar: {
         url: 'https://gcore.jsdelivr.net/gh/sivanWu0222/ImageHosting@master/uPic/IMG_1966.JPG',
         name: 'yirufeng',
@@ -20,46 +22,26 @@ export default defineUserConfig({
         circle: true, 
     },
     notes: {
-        dir: '/notes/', // 声明所有笔记的目录
+        dir: 'notes', // 声明所有笔记的目录
         link: '/', // 声明所有笔记默认的链接前缀， 默认为 '/'
         notes: [
           {
-            dir: 'redis', // 声明笔记的目录，相对于 `notes.dir`
-            link: '/redis/', // 声明笔记的链接前缀
-            sidebar: [ // 配置侧边栏
+            dir: 'algo',
+            link: '/notes/algo/',
+            sidebar: [
               {
                 text: '数据结构',
-                icon: '', // 侧边栏图标
-                items: ['data'] // 简化写法，主题会自动补全为 `foo.md`
+                collapsed: false,
+                icon: 'carbon:idea',
+                items: ['数组', '链表', '栈', '树', '图', '数据结构设计', '字符串'],
               },
               {
-                text: '线程IO模型',
-                icon: '', // 侧边栏图标
-                items: ['memory'] // 简化写法，主题会自动补全为 `foo.md`
+                text: '算法',
+                collapsed: false,
+                icon: 'carbon:idea',
+                items: ['排序','动态规划', '场景题', '大数与海量数据', '智力题'],
               },
-              {
-                text: '持久化',
-                icon: '', // 侧边栏图标
-                items: ['memory'] // 简化写法，主题会自动补全为 `foo.md`
-              },
-              {
-                text: '内存系列',
-                icon: '', // 侧边栏图标
-                items: ['memory'] // 简化写法，主题会自动补全为 `foo.md`
-              },
-              {
-                text: '缓存应用',
-                icon: '', // 侧边栏图标
-                items: ['memory'] // 简化写法，主题会自动补全为 `foo.md`
-              }
-            ]
-          },
-          {
-            dir: 'mysql',
-            link: '/mysql/',
-            sidebar: [
-              { text: '简介', items: [''] }
-            ]
+            ],
           }
         ]
     },
@@ -77,17 +59,20 @@ export default defineUserConfig({
         },
         {
           text: '数据结构与算法',
-          icon: 'material-symbols:books-outline',
-          items: [
-              { text: '数组', link: '/notes/array/', icon: '' },
-              { text: '链表', link: '/notes/array/', icon: '' },
-              { text: '栈', link: '/notes/stack/', icon: '' },
-              // icon-park-outline:data
-              { text: '队列', link: '/notes/queue/', icon: '' },
-              { text: '图', link: '/notes/graph/', icon: '' },
-              { text: '字符串', link: '/notes/string/', icon: '' },
-              { text: '算法', link: '/notes/algo/', icon: '' },
-          ],
+          icon: 'material-symbols:book-outline',
+          link: '/notes/algo/',
+          // items: [
+          //     { text: '数组', link: '/notes/algo/array/', icon: '' },
+          //     { text: '链表', link: '/notes/algo/list/', icon: '' },
+          //     { text: '栈', link: '/notes/algo/stack/', icon: '' },
+          //     { text: '树', link: '/notes/algo/tree/', icon: '' },
+          //     { text: '排序', link: '/notes/algo/sort/', icon: '' },
+          //     icon-park-outline:data
+          //     { text: '队列', link: '/notes/algo/queue/', icon: '' },
+          //     { text: '图', link: '/notes/algo/graph/', icon: '' },
+          //     { text: '字符串', link: '/notes/algo/string/', icon: '' },
+          //     { text: '算法', link: '/notes/algo/algo', icon: '' },
+          // ],
         },
         {
             text: '基础',

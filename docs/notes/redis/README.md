@@ -1,9 +1,4 @@
----
-title: redis
-author: yirufeng
-createTime: 2024/05/11 22:24:54
-permalink: /redis/
----
+
 # Redis面试题整理
 
 !> **Redis** 就数据结构 内存淘汰机制 单线程 高可用 缓存应用
